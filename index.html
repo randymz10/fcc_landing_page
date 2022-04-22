@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <div id="logo">
+        <a href="#">
+          <img src="#" alt="Logo" id="header-img" />
+        </a>
+      </div>
+      <nav id="nav-bar">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#me" class="nav-link">About me</a>
+        <a href="#form" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <div id="home"></div>
+
+    <div id="me"></div>
+
+    <iframe
+    id="video"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/RKVU6TzM8gg"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <form action="https://www.freecodecamp.org/email-submit" id="form">
+      <label for="contact">Contact me</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        alt="Sent a email"
+        placeholder="Write your email here..."
+      />
+      <input type="submit" value="Submit" id="submit" />
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
