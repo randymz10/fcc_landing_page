@@ -10,8 +10,8 @@
   <body>
     <header id="header">
       <div id="logo">
-        <a href="#">
-          <img src="#" alt="Logo" id="header-img" />
+        <a href="index.html">
+          <img src="img/cello.png" alt="Logo" id="header-img" />
         </a>
       </div>
       <nav id="nav-bar">
@@ -21,30 +21,36 @@
       </nav>
     </header>
 
-    <div id="me"></div>
+    <div class="container">
+      <div id="me">
+        <h1>Lorem ipsum</h1>
+      </div>
+  
+      <iframe
+      id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/RKVU6TzM8gg"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+  
+      <form action="https://www.freecodecamp.org/email-submit" id="form">
+        <label for="contact">Contact me</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          alt="Sent a email"
+          placeholder="Write your email here..."
+        />
+        <input type="submit" value="Submit" id="submit" />
+      </form>
+    </div>
 
-    <iframe
-    id="video"
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/RKVU6TzM8gg"
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-
-    <form action="https://www.freecodecamp.org/email-submit" id="form">
-      <label for="contact">Contact me</label>
-      <input
-        type="email"
-        name="email"
-        id="email"
-        alt="Sent a email"
-        placeholder="Write your email here..."
-      />
-      <input type="submit" value="Submit" id="submit" />
-    </form>
+    
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
