@@ -8,6 +8,14 @@ Code of the FreeCodeCamp challenge building a lading page.
 
 ---
 
+## Color palette
+
+https://colorhunt.co/palette/2c2e43595260b2b1b9ffd523
+
+- #2C2E43
+- #595260
+- #B2B1B9
+- #FFD523
 ## Demo
 
 ---
