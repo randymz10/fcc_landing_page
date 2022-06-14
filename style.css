@@ -19,3 +19,13 @@
     align-items: center;
     justify-content: space-between;
 }
+
+#header nav{
+    position: fixed;
+    top: 0;
+}
+
+#nav-bar a{
+    padding: 5px;
+    border-right: 1px black;
+}
